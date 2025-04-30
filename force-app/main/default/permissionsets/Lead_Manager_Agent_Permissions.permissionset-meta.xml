@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows custom permissions for Agentforce Agent : Lead_Manager_Agent&apos;s agent user : lead_manager_agent@00ddl00000oqwci.ext.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Lead_Manager_Agent Permissions</label>
+    <license>Einstein Agent</license>
+</PermissionSet>

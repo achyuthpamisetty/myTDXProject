@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlanner xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The Lead Manager Agent helps gather important user details such as Name, Phone Number, and Email Address. It also supports users in applying for loans by explaining loan options, collecting required documents, and answering questions throughout the loan pro</description>
+    <genAiFunctions>
+        <genAiFunctionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</genAiFunctionName>
+    </genAiFunctions>
+    <genAiPlugins>
+        <genAiPluginName>Get_FAQ_from_kb_article4</genAiPluginName>
+    </genAiPlugins>
+    <genAiPlugins>
+        <genAiPluginName>Lead_Manager_Agent</genAiPluginName>
+    </genAiPlugins>
+    <masterLabel>Lead Manager Agent</masterLabel>
+    <plannerType>AiCopilot__ReAct</plannerType>
+</GenAiPlanner>

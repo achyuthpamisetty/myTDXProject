@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>Handles tasks related to loan document verification, including collecting required documents from users and attaching them to the correct loan application</description>
+    <developerName>Document_Management</developerName>
+    <genAiPluginInstructions>
+        <description>Ask the user to provide their Loan Application Number (LAN)</description>
+        <developerName>instruction_asktheuser0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_asktheuser0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Ask for the user&apos;s mobile number to confirm identity</description>
+        <developerName>instruction_askfortheu1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_askfortheu1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Ask whether the user is Salaried or Self-Employed</description>
+        <developerName>instruction_askwhether2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_askwhether2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Based on the employment type, display a list of required documents</description>
+        <developerName>instruction_basedonthe3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_basedonthe3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Request the user to upload the documents one by one</description>
+        <developerName>instruction_requestthe4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_requestthe4</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>First, ask for income proof (e.g., Salary Slip or Business Income Proof).</description>
+        <developerName>instruction_firstaskfo5</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_firstaskfo5</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Once received, attach it to the loan application</description>
+        <developerName>instruction_oncereceiv6</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_oncereceiv6</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Next, ask for a government-issued ID (e.g., Aadhar Card or PAN).</description>
+        <developerName>instruction_nextaskfor7</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_nextaskfor7</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>After upload, attach this document as well</description>
+        <developerName>instruction_afteruploa8</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_afteruploa8</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Confirm that all documents are uploaded and linked to the correct loan application</description>
+        <developerName>instruction_confirmtha9</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_confirmtha9</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Document Management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>The agent can collect the Loan Application Number and mobile number, identify the user&apos;s employment type, request the necessary documents, accept document uploads, and attach the documents to the corresponding loan application in the system</scope>
+</GenAiPlugin>
